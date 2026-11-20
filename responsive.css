@@ -3,203 +3,74 @@ File Name: responsive.css
 ---------------------------------------------------------------------*/
 
 @media (min-width: 1343px) and (max-width: 1500px) {
-  
-    #banner1 .carousel-control-prev {
-    left: 11.5%;
-    }
-    #myCarousel .carousel-control-prev {
-    left: 2%;
-    }
-    #myCarousel .carousel-control-next {
-    right: 2%;
-    }
+
+  .owl-next {right:  -9%;}
+  .owl-prev {left: -9%;}
+
 }
 
 @media (min-width: 1200px) and (max-width: 1342px) {
-  .full_bg {
-        height: 100%;
-    }
-  .header-area::before { 
-    width: 72%;
-  }
-  #banner1 .carousel-control-prev, #banner1 .carousel-control-next {
-  top: 93%;
-}
-  #banner1 .carousel-control-prev {
-    left: 11.5%;
-    }
-    #myCarousel .carousel-control-prev {
-    left: 1%;
-    }
-    #myCarousel .carousel-control-next {
-    right: 1%;
-    }
+  .full_bg {height: 100%; }
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .creative::before {right: 0;}
+.creative::after {right: 0;}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-   .full_bg {
-        height: 100%;
-    }
-    .header-area::before { 
-    width: 75%;
-  }
-  .site-navbar ul li {
-    padding-right: 47px;
-}
-ul.email li {
-
-    padding-right: 70px;
-}
-.creative h1 {
-  padding-bottom: 19px;
-}
- #banner1 .carousel-control-prev, #banner1 .carousel-control-next {
-  top: 93%;
-}
-  #banner1 .carousel-control-prev {
-    left: 10%;
-    }
-    #myCarousel .carousel-control-prev {
-    left: 1%;
-    }
-    #myCarousel .carousel-control-next {
-    right: 1%;
-    }
-    .about_img figure img {
-      padding-right: 10px;
-    }
-
+  .site-navbar ul li a {padding:0px 23px;}
+  .full_bg {height: 100%; }
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .full_bg {
-        height: 100%;
-    }
-  .header-area {
-    padding: 44px 0px;
-  }
-  .header-area::before { 
-    width: 75%;
-  }
-  .site-navbar ul li {
-    padding-right: 15px;
-  }
-  ul.email li {
-    padding-right: 70px;
-  }
-  .creative h1 {
-    padding-bottom: 19px;
-  }
-  #banner1 .carousel-control-prev, #banner1 .carousel-control-next {
-  top: 93%;
+.full_bg {height: 100%;}
+  .logo a img {padding-right: 7px;}
+  .site-navbar ul li a {padding:0px 10px; font-size: 17px;}
+.creative h1 {
+    font-size: 31px;
+    line-height: 39px;
 }
-  #banner1 .carousel-control-prev {
-    left: 8%;
-  }
-  #myCarousel .carousel-control-prev {
-    left: 1%;
-  }
-  #myCarousel .carousel-control-next {
-    right: 1%;
-  }
-  .about_img figure img {
-      padding-right: 10px;
-  }
-  .seren h3 {
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .cho_icon {
-    width: 160px;
-    height: 160px;
-    line-height: 160px;
-  }
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+ .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .titlepage h2 {
+    font-size: 21px;
+    line-height: 27px;}
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .full_bg {
-        height: 100%;
-    }
-    .d_none {
-    display: none;
-    }
-    .creative {
-        padding-bottom: 30px;
-    }
-    .header-area {
-    padding: 44px 0px;
-  }
-  .header-area::before {
-    width: 100%;
-    right: 0px;
-    border-radius: 0px 0px 70px 70px;
-}
-  .site-navbar ul li {
-    padding-right: 15px;
-  }
-  ul.email li {
-    padding-right: 70px;
-  }
-  .creative h1 {
-    padding-bottom: 19px;
-    font-size: 70px;
-    line-height: 70px;
-}
-.creative p {
-  padding-bottom: 45px;
-}
-#banner1 .carousel-control-prev, #banner1 .carousel-control-next {
-  top: 93%;
-}
-  #banner1 .carousel-control-prev {
-    left: 8%;
-  }
-  #banner1 .carousel-control-next {
-    left: 20.4%;
-  }
-  #myCarousel .carousel-control-prev {
-    left: 1%;
-  }
-  #myCarousel .carousel-control-next {
-    right: 1%;
-  }
-  
-  .about_img figure img {
-      padding-right: 10px;
-  }
-  .about .titlepage {
-    max-width: inherit;
-    padding-bottom: 30px;
-  }
-  .choose {
-    background-size: 100%;
-  }
+  .d_none {display: none;}
+  .full_bg {height: 100%;}
+  .site-navbar ul li a {padding: 8px 9px; font-size: 16px;}
+.creative h1 {padding-top: 30px;}
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .innva_img, .map-responsive, 
+  .market_img, .secret_img {padding-top: 30px;}
+  .services_box h3 {font-size: 20px; line-height: 25px;}
+.grid {display: grid;}
+.older {order: -1;}
+.main_form {max-width: inherit;}
 
-  .our_class {padding-top: 50px;}
-  .chose_text {
-    display: inherit;
-  }
-  .seren h3 {
-    font-size: 23px;
-    line-height: 30px;
-    padding-top: 20px;
-  }
-  .tranner_box.text_align_left {
-    max-width: 344px;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
- 
-  .copyright p {
-    text-align: center;
-  }
-  ul.social_icon {
-    padding-top: 30px;
-    text-align: center;
-  }
     /* navbar css for mobile start */
     .navbar-area {
-    margin-bottom: -10px;
+    margin-top: -47px;
     }
     .nav-toggler {
         display: block;
@@ -214,10 +85,11 @@ ul.email li {
         position: absolute;
         width: 100%;
         left: 0px;
-        top: 61px;
+        top: 29px;
         flex-direction: column;
         align-items: center;
-        background-color: #e50444;
+        background-color: #fff;
+        box-shadow: 3px 0 21px rgba(13, 3, 3, 0.10);
         max-height: 0;
         overflow: hidden;
         transition: .3s;
@@ -241,104 +113,41 @@ ul.email li {
 }
 
 @media (max-width: 575px) {
-   .full_bg {
-        height: 100%;
-    }
-    .d_none {
-    display: none;
-    }
-    .creative {
-        padding-bottom: 30px;
-    }
-    .header-area {
-    padding: 44px 0px;
-  }
-  .header-area::before {
-    width: 100%;
-    right: 0px;
-    border-radius: 0px 0px 70px 70px;
-}
-  .site-navbar ul li {
-    padding-right: 15px;
-  }
-  ul.email li {
-    padding-right: 70px;
-  }
+  .d_none {display: none;}
+  .full_bg {height: 100%;}
+  .site-navbar ul li a {padding: 8px 9px; font-size: 16px;}
 .creative h1 {
-    padding-bottom: 19px;
-    font-size: 45px;
-    line-height: 50px;
-}
-.creative p {
-  padding-bottom: 45px;
-}
-.creative .read_more {
-    max-width: 139px;
-    line-height: 55px;
-    height: 55px;
-    font-size: 14px;
-    margin-right: 1px;
-}
-#banner1 .carousel-control-prev, #banner1 .carousel-control-next {
-  top: 93%;
-}
-  #banner1 .carousel-control-prev {
-    left: 8%;
-  }
-  #banner1 .carousel-control-next {
-    left: 30.4%;
-  }
-  #myCarousel .carousel-control-prev {
-    left: 1%;
-  }
-  #myCarousel .carousel-control-next {
-    right: 1%;
-  }
-  #myCarousel .carousel-control-prev, #myCarousel .carousel-control-next {
-    top: 88%;
-  }
-  .about_img figure img {
-      padding-right: 0px;
-  }
-  .about .titlepage {
-    max-width: inherit;
-    padding-bottom: 30px;
-  }
-  .choose {
-    background-size: 100%;
-  }
-  .custom p {padding: 67px 20px;}
-  .our_class {padding-top: 50px;}
-  .chose_text {
-    display: inherit;
-  }
-.seren h3 {
-    font-size: 23px;
-    line-height: 35px;
-    padding-top: 20px;
-}
-  .tranner_box.text_align_left {
-
-    max-width: 344px;
-    margin: 0 auto;
-    margin-top: 30px;
-
-  }
- 
-  .copyright p {
-    text-align: center;
-  }
-  ul.social_icon {
     padding-top: 30px;
-    text-align: center;
-  }
- .titlepage h2 {
-    font-size: 37px;
+    font-size: 40px;
     line-height: 45px;
 }
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .innva_img, .map-responsive, 
+  .market_img, .secret_img {padding-top: 30px;}
+.grid {
+    display: grid;
+  }
+.older {
+    order: -1;
+  }
+.titlepage h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+.main_form {max-width: inherit;}
+ul.conta li {padding-bottom: 10px;}
+.newslatter_form, ul.conta {display: inherit;}
+.subs_btn {
+  margin-left: 0;
+}
     /* navbar css for mobile start */
-    .navbar-area {
-        margin-top: -41px;
+.navbar-area {
+    margin-top: -47px;
     }
     .nav-toggler {
         display: block;
@@ -353,10 +162,11 @@ ul.email li {
         position: absolute;
         width: 100%;
         left: 0px;
-        top: 20px;
+        top: 30px;
         flex-direction: column;
         align-items: center;
-        background-color: #e50444;
+        background-color: #fff;
+        box-shadow: 3px 0 21px rgba(13, 3, 3, 0.10);
         max-height: 0;
         overflow: hidden;
         transition: .3s;
